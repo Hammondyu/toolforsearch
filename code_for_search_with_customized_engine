@@ -1,3 +1,4 @@
+        frequentEngines: [
             {
                 name: '百度',
                 url: 'https://www.baidu.com/s?wd=%s&ie=utf-8',
@@ -55,6 +56,20 @@
                 enable: true,
             },
             {
+                name: 'lexico_synonyms',
+                url: 'https://www.lexico.com/synonyms/%s',
+                home: 'https://www.lexico.com/',
+                icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Lexico_logo.svg/1200px-Lexico_logo.svg.png',
+                enable: true,
+            },
+            {
+                name: 'synonyms_synonyms',
+                url: 'https://www.synonyms.com/synonym/%s',
+                home: 'https://www.synonyms.com/synonym/',
+                icon: 'https://static.stands4.com/app_common/img/top_logo_syn.png',
+                enable: true,
+            },
+            {
                 name: 'wiktionary',
                 url: 'https://en.wiktionary.org/wiki/%s',
                 home: 'https://en.wiktionary.org/',
@@ -68,3 +83,4 @@
                 icon: 'https://scontent-hkg4-1.xx.fbcdn.net/v/t1.0-9/576954_281193901985446_1551272037_n.jpg?_nc_cat=105&ccb=2&_nc_sid=09cbfe&_nc_ohc=kwruqlyH-NIAX_Bf5Zg&_nc_ht=scontent-hkg4-1.xx&oh=a655b7d48f3d9b7697b47ab3fef9e4e8&oe=60360983',
                 enable: true,
             },
+        ],
